@@ -1,0 +1,133 @@
+/* pages/my/my.wxss */
+/* 我的标题 */
+.title_max {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 45rpx;
+  margin: 30rpx;
+  margin-top: 80rpx;
+}
+
+ .fontstyle{
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.title_max .news {
+  width: 65rpx;
+  height: 65rpx;
+}
+
+/* 内容 */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: blue;
+  border-radius: 30rpx;
+  margin: 30rpx;
+  padding: 30rpx 50rpx;
+}
+
+/* 登录 */
+.sign_in {
+  display: flex;
+}
+
+.sign_in button {
+  flex: 1;
+}
+
+.sign_in .portrait {
+  background-color: white;
+  width: 125rpx;
+  height: 125rpx;
+  border-radius: 50%;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+}
+
+/* 功能 */
+.nav {
+ 
+  display: flex;
+  justify-content: space-around;
+  color: #666;
+  font-size: 30rpx;
+}
+
+/* 按钮样式 */
+.main .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  font-size: 30rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+/* -------------------------- */
+/* 活动标题 */
+.allactivity {
+  font-size: 30rpx;
+  color: #666;
+}
+
+/* 活动页 */
+.activity {
+  display: flex;
+  margin: 30rpx;
+  align-items: stretch;
+}
+
+.activity view image {
+  width: 175rpx;
+  height: 175rpx;
+  border-radius: 30rpx;
+}
+
+.block {
+  width: 516rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+
+.block text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: cursive;
+}
+
+.block view {
+  color: #666;
+  font-size: 20rpx;
+  align-self: flex-end;
+}
+.block view text:nth-child(3){
+  color: black;
+  background-color: orange;
+  border-radius: 30rpx;
+  margin-left: 30rpx;
+  padding: 10rpx 30rpx;
+  font-size: 25rpx;
+}
+
+/* 点击更新样式 */
+.upstyle {
+  color: black;
+  border-bottom: 1rpx solid orange;
+  font-size: 35rpx;
+}

@@ -1,0 +1,20 @@
+<!--pages/allregact/allregact.wxml-->
+<view class="headbox flex">
+  <image bindtap="back" class="rightc" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/leftc.png"></image>
+<view class="headfont">我的活动</view>
+</view>
+<view wx:for="{{actlist}}" wx:for-index="actlistindex">
+<view wx:for="{{actlist[actlistindex]}}" wx:for-item="listcontain">
+<view class="actbox flex">
+<image mode="aspectFill" class="pic" src="{{listcontain.src}}"></image>
+<view class="contain">
+  <view class="tit">{{listcontain.title}}</view>
+  <view class="flex">
+  <view class="sty">{{listcontain.style}}</view>
+  <view  class="sty">{{listcontain.date}}</view>
+  </view>
+  <view class="sta">{{listcontain.status}}</view>
+</view>
+</view>
+</view>
+</view>

@@ -1,0 +1,83 @@
+<!--pages/青年goal/青年goal.wxml-->
+<view class="a">
+<image src="/images/01.jpg"></image></view>
+
+<view class="b">
+  
+  腾讯X清华“云实习”项目 </view>
+<view class="c">
+<view class="c1">
+  <image src="/images/户型.png" class="img"></image>
+  <view class="text">线上活动</view>
+</view>
+<view class="c2">
+  <image src="/images/户型.png" class="img"></image>
+  <view class="text">即将开启</view>
+</view>
+<view class="c3">
+  <image src="/images/户型.png" class="img"></image>
+  <view class="text">已预约2100人</view>
+</view>
+</view>
+<view class="xhx"><view></view></view>
+<view class="gz"><image src="/images/01.jpg" class="gzimg"></image>
+  <view class="gztext">腾讯</view>
+  <block bindtap="adc">
+<view class="d" bindtap="adc"> <button class="dgz" style=" height:35px;  width: 100px;">关注</button></view></block>
+  <view class="xia">1127人关注</view>
+</view>
+<view class="gz"><image src="/images/01.jpg" class="gzimg"></image>
+  <view class="gztext">清华大学</view>
+  <view class="d"> <button class="dgz" style=" height:35px;  width: 100px;">关注</button></view>
+  <view class="xia">4457人关注</view>
+</view>
+<view class="xhx"><view></view></view>
+<view class="e"> 活动介绍 </view>
+<view class="f">清华和腾讯联手啦!</view>
+<view class="g">北京商报讯（记者 程铭劼 实习记者 赵博宇）9月28日，腾讯公司和清华大学达成了校庆专项合作，
+                 此次合作以清华建校110周年为契机，双方将在科研、新文创、
+                 大学生实习及青少年科学教育等多个方面展开深入合作。</view>
+
+ <view class="g">据了解，为了降低疫情对大学生实习和就业的影响，腾讯公司与清华大学计划于2021年启动“云实习”探索项目。
+                  腾讯将开放多个科学实验室，以及腾讯影业、阅文集团、腾讯视频、腾讯游戏等多个核心业务机会，
+                 在“腾讯青年行”小程序上为清华在校学生提供不少于100个“线上+线下”结合的云实习岗位。
+                  而在此之前，腾讯云已为清华大学生物医学交叉研究院相关实验室提供了海量高性能计算、
+                  存储资源，助力新冠药物的研发。</view>
+ <view class="g">
+                 在“腾讯青年行”小程序上为清华在校学生提供不少于100个“线上+线下”结合的云实习岗位。
+                  而在此之前，腾讯云已为清华大学生物医学交叉研究院相关实验室提供了海量高性能计算、
+                  存储资源，助力新冠药物的研发。</view>
+ <view class="g">
+                  而在此之前，腾讯云已为清华大学生物医学交叉研究院相关实验室提供了海量高性能计算、
+                  存储资源，助力新冠药物的研发。</view>
+
+                  <view class="h">
+	<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+		<block wx:for="{{movies}}" wx:for-index="index">
+			<swiper-item>
+				<image src="{{item.url}}" class="slide-image" mode="aspectFill"/>
+			</swiper-item>
+		</block>
+    </swiper>
+</view>
+<view class="dibu">
+<view class="dibu_tb">
+<image src="/images/户型.png" class="dibuimg"></image>
+<text>收藏</text>
+</view>
+<view class="dibu_tb1 ">
+  <image src="/images/户型.png" class="dibuimg"></image>
+<text>分享</text>
+</view>
+<view class="dibu_tb2">
+  <image src="/images/户型.png" class="dibuimg"></image>
+<text>客服</text>
+</view>
+<block bindtap="adc">
+<view class="dibu_tb10"  bindtap="adc">
+<view class="dibutext">立即预约</view>
+<view class="dibutext1">将在活动开始前提醒您</view>
+</view>
+</block>
+</view>
+

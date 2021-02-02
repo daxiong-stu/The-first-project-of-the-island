@@ -1,0 +1,57 @@
+<!-- 我的标题 -->
+<view class="title_max">
+  <text class="title_min">我的</text>
+  <image class="news" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/icon/邮件.svg"></image>
+</view>
+<!-- 内容 -->
+<view class="main">
+  <!-- 登录 -->
+  <view class="sign_in">
+    <image class="portrait" src="{{userInfo.avatarUrl}}"></image>
+    <button class="btn" plain open-type="getUserInfo"   bindgetuserinfo="getuserinfo">{{userInfo.nickName}}</button>
+  </view>
+  <!-- 功能 -->
+  <view class="nav">
+    <button class="btn" plain bindtap="url">
+      <text>{{userdata.sc}}</text>
+      <text class="fontstyle">收藏</text>
+    </button>
+    <button class="btn" plain>
+      <text>{{userdata.gz}}</text>
+      <text class="fontstyle">关注</text>
+    </button>
+    <button class="btn" plain>
+      <text>{{userdata.pl}}</text>
+      <text class="fontstyle">评论</text>
+    </button>
+    <button class="btn" plain>
+      <text>{{userdata.stzm}}</text>
+      <text class="fontstyle">素拓证明</text>
+    </button>
+  </view>
+</view>
+<!-- -------------------------- -->
+<!-- 活动标题 -->
+<view class="title_max">
+  <text class="title_min">我的活动</text>
+  <text class="allactivity" bindtap="jumpall">全部已报名活动></text>
+</view>
+<!-- 导航 -->
+<view class="nav">
+  <view class="{{id==index?'upstyle':''}}" wx:for="{{list}}" wx:key="*this" bindtap="getactivity" data-index="{{index}}"
+    bindtap="getactivity">{{item}}</view>
+</view>
+<!-- 活动 -->
+<veiw class="activity" wx:for="{{allactivity[id]}}" wx:key="key">
+  <view>
+    <image mode="widthFlil" src="{{item.src}}"></image>
+  </view>
+  <view class="block">
+    <text>{{item.title}}</text>
+    <view>
+      <text>·通过时间</text>
+      <text>{{item.date}}</text>
+      <text>查看详情</text>
+    </view>
+  </view>
+</veiw>

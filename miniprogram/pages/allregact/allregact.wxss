@@ -1,0 +1,46 @@
+/* pages/allregact/allregact.wxss */
+.headfont{
+  font-weight: bold;
+  
+}
+.pic{
+  margin-left: 40rpx;
+  margin-right: 30rpx;
+  width:250rpx ;
+  height: 100%;
+  border-radius: 10px;
+}
+.actbox{
+  margin-bottom: 70rpx;
+  height: 180rpx;
+  
+}
+.headbox{
+  margin: 70rpx 0rpx;
+
+  
+}
+.rightc{
+  margin-top: 5rpx;
+  margin-right: 50rpx;
+  width:40rpx;
+  height:40rpx;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+.tit{
+  margin-top: 10rpx;
+  font-size: 14px;
+  font-weight: bold;
+}
+.sty{
+  margin-top: 10rpx;
+  color: rgba(169,169,169, 0.8);
+  font-size: 12px;
+}
+.sta{
+  margin-top: 30rpx;
+  font-size: 12px;
+}

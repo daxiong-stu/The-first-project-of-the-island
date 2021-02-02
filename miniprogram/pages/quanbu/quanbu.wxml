@@ -1,0 +1,215 @@
+<view class="headfont">全部活动</view>
+<view class="search" >
+          <view class="search-input">
+              <text>请输入搜索内容</text>
+          </view>
+          <view class="search-icon">
+              <icon type="search" size="30" color="" />
+          </view>
+    </view>
+
+    <view class="list-nav">
+    <view class="nav-tab d-row j-between">
+              <view class="img-list" >
+                <image src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/1.png" mode="scaleToFill" class="img-01"/>
+                <view class="keshu">
+                      <view class="icon-img-01"></view>
+                      <view class="name">活动日历</view>
+                      <view>按日期挑活动</view>
+                </view>
+              </view>
+              <view class="img-list" >
+                <image src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/2.png" mode="scaleToFill" class="img-01"/>
+                <view class="keshu">
+                      <view class="icon-img-01"></view>
+                      <view class="name">线上专区</view>
+                      <view>在家也能涨知识</view>
+                </view>
+              </view>
+              <view class="img-list" >
+                <image src=cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/3.png" mode="scaleToFill" class="img-01"/>
+                <view class="keshu">
+                      <view class="icon-img-01"></view>
+                      <view class="name">合作伙伴</view>
+                      <view>TA们在办好活动</view>
+                </view>
+              </view>
+        </view>
+        </view>
+
+        <tabCommon tabList="{{listData}}" bindclickTab="clickTab" />
+
+
+        <view class="more-list">
+          <block wx:if="{{tabIndex==0}}">
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/a.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">2020中国杯青少年帆船比赛</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/b.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">奇妙的“未来办公”之旅</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周六</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/c.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">一起揭秘青少年创客空间</view>
+                      <view class="h6-txt">线上活动  2020/1/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/d.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">数据分析的实际应用</view>
+                      <view class="h6-txt">线上活动  2020/1/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                           
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/e.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">解读达利展-浅谈艺术IP生活化</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                          
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/f.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">“汉语热”中国在发展</view>
+                      <view class="h6-txt">线下活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/i.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">腾讯X清华“云实习”项目</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/j.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">万物皆可估--评估师眼中的世界</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>      
+          </block>
+          <block wx:if="{{tabIndex==1}}">
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/c.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">一起揭秘青少年创客空间</view>
+                      <view class="h6-txt">线上活动  2020/1/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/d.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">数据分析的实际应用</view>
+                      <view class="h6-txt">线上活动  2020/1/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                           
+                    </view>
+                  </view>
+              </view>
+          </block>
+          <block wx:if="{{tabIndex==2}}">
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="	cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/e.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">解读达利展-浅谈艺术IP生活化</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                          
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="	cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/f.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">“汉语热”中国在发展</view>
+                      <view class="h6-txt">线下活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+          </block>
+          <block wx:if="{{tabIndex==3}}">
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="	cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/g.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">奇妙的“未来办公”之旅</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周六</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                                
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="	cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/h.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">2020中国杯青少年帆船比赛</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+          </block>
+          <block wx:if="{{tabIndex==4}}">
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/i.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">腾讯X清华“云实习”项目</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+              <view class="more-nav-01 d-row j-start">
+                  <view class="more-name">
+                    <image class="more-img" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/j.jpg" />
+                    <view class="more-img-name">
+                      <view class="h1-txt">万物皆可估--评估师眼中的世界</view>
+                      <view class="h6-txt">线上活动  2020/12/13 周日</view>
+                      <button style="margin-right:50rpx;font-size:10pt;width:200rpx;height:60rpx;line-height:30rpx;white-space:nowrap;">查看详情</button>                            
+                    </view>
+                  </view>
+              </view>
+          </block>
+          
+    </view>

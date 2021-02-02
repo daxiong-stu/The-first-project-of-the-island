@@ -1,0 +1,145 @@
+<!-- 头部  -->
+<view  class="headtext1">腾讯青年行</view>
+<view class="headtext2">青少年综合发展平台</view>
+<image class="headimage"  src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/head.jpg"  ></image>
+<view >
+<view class="view1">
+  <view class="view2 ">
+<button type="mini" style="padding-left:10rpx;line-height:15rpx;font-size:12px;width:190rpx;height:50rpx;border:1px solid white;color:white;border-radius:30px;" plain="true">了解青年行</button>
+<image  src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/rightc.png" class="view3"></image>
+</view>
+</view>
+</view>
+<!-- 头部下面的轮播图 -->
+<view style="">
+  <swiper class="swiper" class="view4" indicator-dots="true">
+    <swiper-item >
+      <image mode="aspectFill" class="view5" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/ad1.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image mode="aspectFill" class="view6" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/ad2.png"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 活动推荐 -->
+<view class="view7">
+<view class="view8">活动推荐</view>
+<scroll-view scroll-x="true" class="scorll-x">
+ <block wx:for="{{hdtj}}" wx:for-item="yqc">
+   <view class="scorll-parent">
+   <view class="view9">
+    <image mode="aspectFill" class="view10" src="{{yqc.src}}"></image>
+   </view>
+   <view class="view11">
+   <view class="view12">{{yqc.title}}</view>
+   <view class="view13">{{yqc.contain}}</view>
+   <view class="view14">
+   <view>{{item.active}}</view>
+   <view class="view15">{{yqc.date}}</view>
+   <view></view>
+   </view>
+   <view class="view16">
+      <view></view>
+     <view></view>
+     <button style="margin-left:400rpx;font-size:10px;width:100px;border-radius:15px;background-color:#FFD700;">观看活动</button>
+    </view>
+    </view>
+  </view>
+ </block>
+</scroll-view>
+<!-- 分割线 -->
+<view class="hr"></view>
+<!-- 猜你喜欢 -->
+<view class="view17">
+<view class="view18">猜你喜欢</view>
+<view class="scorll-parent">
+   <view class="view19">
+    <image mode="aspectFill" class="view20" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/back.png"></image>
+   </view>
+   <view class="view21">
+   <view class="view22">云参观————走进智慧果蔬梦工厂</view>
+   <view class="view23">-由主持人带着问题参观，请教嘉宾，了解科技农业，无土栽培，智慧农业，农业专家手把手教学完成家庭DIY种植...</view>
+   <view class="view24">
+   <view>·线上活动</view>
+   <view class="view25">·2020/04/12 周日</view>
+   <view></view>
+   </view>
+   <view class="view26">
+      <view></view>
+     <view></view>
+     <button style="margin-left:400rpx;font-size:10px;width:100px;border-radius:15px;background-color:#FFD700;">观看回放</button>
+    </view>
+    </view>
+  </view>
+</view>
+<!-- 猜你喜欢的scroll-view -->
+<scroll-view scroll-x="true" class="view27" > 
+  <block wx:for="{{hdtj2}}" wx:for-item="list">
+    <view class="view28"> 
+      <view class="view29">
+      <view>
+        <image mode="aspectFill" class="view30" src="{{list.src}}"></image>
+      </view>
+      <view class="view31">{{list.title}}</view>
+      <view class="view32">
+      <view class="view33">{{list.active}}</view>
+      <view class="view33">{{list.date}}</view>
+    </view>
+    </view> 
+  </view>
+  </block>  
+</scroll-view>
+<!-- 分割线 -->
+<view class="hr"></view>
+<!-- 必看精品 -->
+<view class="view34">必看精品</view>
+<block wx:for="{{hdtj3}}" wx:for-item="list1">
+  <view class="view35">
+<view>
+  <image class="view36" src="{{list1.src}}"></image>
+</view>
+<view class="view37">{{list1.contain}}</view>
+</view>
+</block>
+<!-- 分割线 -->
+<view class="hr"></view>
+<!-- 青年行合作伙伴 -->
+<view class="view38">
+<view class="view39">青年行合作伙伴</view>
+<view class="view40">
+  <view class="view41" >查看全部</view>
+  <view>
+  <image class="view42" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/rightc.png"></image>
+</view>
+</view>
+</view>
+<view>
+  <scroll-view scroll-x="true" class="view43" > 
+  <block wx:for="{{hdtj4}}" wx:for-item="list3">
+   <view class="view44">
+     <view class="view45">
+    <view><image mode="aspectFill" class="view46" src="{{list3.src}}"></image></view>
+    <view class="view47">{{list3.contain}}</view>
+  </view>
+   </view>
+  </block>  
+</scroll-view>
+</view>
+<!-- 分割线 -->
+<view class="hr"></view>
+<!-- 青年行热点资讯 -->
+<view class="view48">
+<view class="view49">青年行热点资讯</view>
+<view class="view50">
+  <view class="view51" >查看全部</view>
+  <view>
+  <image class="view52" src="cloud://envirment-nr7am.656e-envirment-nr7am-1302003610/images/rightc.png"></image>
+</view>
+</view>
+</view>
+<block wx:for="{{picitem}}" wx:for-item="list4">
+<view class="view53">
+  <image mode="aspectFill" src="{{list4.item}}" class="view54"></image>
+</view>
+</block>
+</view>

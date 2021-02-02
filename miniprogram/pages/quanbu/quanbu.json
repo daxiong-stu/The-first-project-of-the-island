@@ -1,0 +1,7 @@
+{
+  "usingComponents": { 
+    "tabCommon":"../tabCommon/tabCommon"
+  },
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "青年行"
+}
